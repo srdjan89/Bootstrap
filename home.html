@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+
+        <a class="navbar-brand" href="home.html">MySite</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="container">
+
+        <div id="demo" class="carousel slide container" style="margin-top:10px;" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/slika1.jpg" alt="Los Angeles">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slika2.jpg" alt="Chicago">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slika3.jpg" alt="New York">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+        </div>
+
+    </div>
+    <br><br>
+    <div class="container" id="home">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="media">
+                    <div class="media-left">
+                        <img class="mr-3" src="images/news.png" style="width:60px">
+                    </div>
+                    <div class="media-body">
+                        <h3 class="mt-0">News</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#world">World</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#science">Science</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#health">Health</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active container" id="world">
+                        <div class="media">
+                            <div class="media-left">
+                                <img class="mr-3" src="images/world.jpg" style="width:200px; margin-top:10px;">
+                            </div>
+                            <div class="media-body" style="text-align:justify;">
+                                <h4 class="mt-0">
+                                    As you wish. Look, I ain't in this for your revolution, and I'm not in it for you, Princess. I expect to be well paid. I'm in it for the money. You don't believe in the Force, do you? I have traced the Rebel spies to her. Now she is my only link to finding their secret base. A tremor in the Force. The last time I felt it was in the presence of my old master. In my experience, there is no such thing as luck. I don't know what you're talking about. I am a member of the Imperial Senate on a diplomatic mission to Alderaan.
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane container" id="science">
+                        <div class="media">
+                            <div class="media-left">
+                                <img class="mr-3" src="images/science.jpeg" style="width:200px; margin-top:10px;">
+                            </div>
+                            <div class="media-body" style="text-align:justify;">
+                                <h4 class="mt-0">
+                                    Hokey religions and ancient weapons are no match for a good blaster at your side, kid. Alderaan? I'm not going to Alderaan. I've got to go home. It's late, I'm in for it as it is. I have traced the Rebel spies to her. Now she is my only link to finding their secret base. Your eyes can deceive you. Don't trust them. I suggest you try it again, Luke. This time, let go your conscious self and act on instinct. I suggest you try it again, Luke. This time, let go your conscious self and act on instinct.
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane container" id="health">
+                        <div class="media">
+                            <div class="media-left">
+                                <img class="mr-3" src="images/health.jpg" style="width:200px; margin-top:10px;">
+                            </div>
+                            <div class="media-body" style="text-align:justify;">
+                                <h4 class="mt-0">
+                                    The more you tighten your grip, Tarkin, the more star systems will slip through your fingers. Escape is not his plan. I must face him, alone. She must have hidden the plans in the escape pod. Send a detachment down to retrieve them, and see to it personally, Commander. There'll be no one to stop us this time! Dantooine. They're on Dantooine. A tremor in the Force. The last time I felt it was in the presence of my old master. You are a part of the Rebel Alliance and a traitor! Take her away! You mean it controls your actions?
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <footer>
+            <p>&copy; Company 2018</p>
+        </footer>
+    </div>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
